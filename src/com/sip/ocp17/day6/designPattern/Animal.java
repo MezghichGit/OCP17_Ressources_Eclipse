@@ -38,6 +38,7 @@ public final class Animal {
 
 	public List<String> getFoods() {
 		return new ArrayList(foods);  // renvois une copie de la liste
+		//return  foods;
 	}
 
 	/*public void setFoods(List<String> foods) {

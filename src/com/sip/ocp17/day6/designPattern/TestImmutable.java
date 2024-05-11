@@ -19,8 +19,8 @@ public class TestImmutable {
 		//System.out.println(a);
 		System.out.println(a.getFoods());
 		repas.clear();
-		//List<String> v = a.getFoods();  // recevoir une copie de la liste
-		//v.clear();
+		List<String> v = a.getFoods();  // recevoir une copie de la liste
+		v.clear();
 		System.out.println(a.getFoods());
 	}
 }
