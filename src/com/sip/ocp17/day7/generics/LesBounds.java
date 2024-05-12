@@ -29,6 +29,8 @@ public class LesBounds {
         List<? super Oiseau> ll; // ll peut pointer sur une liste de oiseau ou toute liste contenant des elements super de Oiseau
         ll = la;
         ll = lo;
+        
+        List<String>
 	}
 
 }
