@@ -60,6 +60,8 @@ public class LesInterfacesFonctionnelles {
 		String keyword = "ocp";
 		System.out.println(bpred.test(text,keyword));
 		
+		//Predicate pr = String::isEmpty;
+		
 	}
 
 }
