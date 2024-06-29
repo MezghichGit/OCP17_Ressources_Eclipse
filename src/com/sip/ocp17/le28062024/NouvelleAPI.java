@@ -14,9 +14,9 @@ public class NouvelleAPI {
 		try {
 			// service est un objet basé sur 1 seul thread
 			//service = Executors.newSingleThreadExecutor(); // Executors : classe factory
-			service = Executors.newFixedThreadPool(2); // service contient actuellement 2 thread
+			//service = Executors.newFixedThreadPool(2); // service contient actuellement 2 thread
 			
-			//service = Executors.newCachedThreadPool(); // un nombre de thread selon le besoin 
+			service = Executors.newCachedThreadPool(); // un nombre de thread selon le besoin 
 			
 			Runnable task1 = ()->{
 				
