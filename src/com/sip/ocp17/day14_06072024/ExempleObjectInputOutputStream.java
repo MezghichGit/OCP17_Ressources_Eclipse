@@ -44,7 +44,7 @@ public class ExempleObjectInputOutputStream {
         
         File dataFile = new File("d:\\zoo\\animal.data");
         
-        //createAnimalsFile(animals, dataFile); // serialization
+        createAnimalsFile(animals, dataFile); // serialization
         System.out.println(getAnimals(dataFile)); // deserialization
     }
 
